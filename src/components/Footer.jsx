@@ -34,6 +34,11 @@ export default function Footer() {
           <span>© {new Date().getFullYear()} {site.brand} Ireland. All rights reserved.</span>
           <span className="muted">Lineage: Grandmaster Modesto "Ding" Llanera</span>
         </div>
+        <div className="container footer-credit">
+          <span className="muted">
+            Crafted by <a href="https://www.jidemobell.com" target="_blank" rel="noreferrer">jidemobell</a> &middot; Built under <a href="https://www.atensai.com" target="_blank" rel="noreferrer">Atensai</a>
+          </span>
+        </div>
       </div>
     </footer>
   )
