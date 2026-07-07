@@ -1,0 +1,24 @@
+{
+  "intro": "Grandmaster Llanera travels regularly to host Saykan Combat seminars and instructor workshops by invitation \u2014 at clubs, academies, and private gatherings around Ireland and beyond. If you would like to host the Grandmaster at your own club, please get in touch.",
+  "highlights": [
+    {
+      "title": "Saykan Combat Seminar \u2014 Masters Temple, Bray",
+      "where": "Bray, Co. Wicklow",
+      "blurb": "Single & double stick counters and empty-hand techniques with the Grandmaster.",
+      "image": "assets/img/events/seminar-bray.jpg"
+    },
+    {
+      "title": "Visiting Seminar \u2014 Co. Meath",
+      "where": "Bohermeen, Co. Meath",
+      "blurb": "A guest session with one of the Grandmaster\u2019s long-standing students, open to invited participants.",
+      "image": "assets/img/events/seminar-meath.jpg"
+    },
+    {
+      "title": "Instructor Apprenticeship Intensive",
+      "where": "By invitation, internationally",
+      "blurb": "Direct training with the Grandmaster for licensed instructors and senior candidates.",
+      "image": "assets/img/events/seminar-intl.jpg"
+    }
+  ],
+  "cta": { "label": "Invite the Grandmaster", "href": "#contact" }
+}

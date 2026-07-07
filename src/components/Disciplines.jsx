@@ -1,4 +1,4 @@
-import { disciplines } from '../data/content.js'
+import disciplines from '/content/disciplines.json'
 
 export default function Disciplines() {
   return (

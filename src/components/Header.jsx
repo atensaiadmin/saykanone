@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { site } from '../data/content.js'
+import site from '/content/site.json'
 
 const links = [
   { href: '#about', label: 'About' },

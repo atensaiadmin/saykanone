@@ -1,4 +1,5 @@
-import { academy, site } from '../data/content.js'
+import academy from '/content/academy.json'
+import site from '/content/site.json'
 
 export default function Classes() {
   return (

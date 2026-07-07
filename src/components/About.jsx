@@ -1,4 +1,4 @@
-import { about } from '../data/content.js'
+import about from '/content/about.json'
 
 export default function About() {
   return (

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { faqs } from '../data/content.js'
+import faqs from '/content/faqs.json'
 
 export default function FAQ() {
   const [open, setOpen] = useState(0)

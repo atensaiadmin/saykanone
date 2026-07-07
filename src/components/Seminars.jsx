@@ -1,4 +1,4 @@
-import { seminars } from '../data/content.js'
+import seminars from '/content/seminars.json'
 
 export default function Seminars() {
   return (

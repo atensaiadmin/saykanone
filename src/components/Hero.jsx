@@ -1,4 +1,4 @@
-import { hero } from '../data/content.js'
+import hero from '/content/hero.json'
 
 export default function Hero() {
   return (

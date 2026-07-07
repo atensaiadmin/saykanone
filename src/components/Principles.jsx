@@ -1,4 +1,4 @@
-import { principles } from '../data/content.js'
+import principles from '/content/principles.json'
 
 export default function Principles() {
   return (

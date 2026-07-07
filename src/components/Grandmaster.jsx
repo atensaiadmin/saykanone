@@ -1,4 +1,4 @@
-import { grandmaster } from '../data/content.js'
+import grandmaster from '/content/grandmaster.json'
 
 export default function Grandmaster() {
   return (

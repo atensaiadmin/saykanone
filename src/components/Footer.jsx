@@ -1,4 +1,4 @@
-import { site } from '../data/content.js'
+import site from '/content/site.json'
 
 export default function Footer() {
   return (
