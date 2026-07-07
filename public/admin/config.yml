@@ -30,13 +30,7 @@ collections:
         file: content/hero.json
         fields:
           - { label: Eyebrow, name: eyebrow, widget: string }
-          - label: Title
-            name: title
-            widget: list
-            fields:
-              - { label: Main, name: title0, widget: string }
-              - { label: Accent, name: title1, widget: string }
-              field: { label: Part, name: part, widget: string }
+          - { label: Title, name: title, widget: list, field: { label: Part, name: part, widget: string } }
           - { label: Subtitle, name: subtitle, widget: string }
           - { label: Lead Paragraph, name: lead, widget: text }
           - label: Primary CTA
