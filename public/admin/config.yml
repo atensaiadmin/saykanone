@@ -1,9 +1,0 @@
-backend:
-  name: github
-  repo: atensaiadmin/saykanone
-  branch: main
-  base_url: https://saykan-cms-oauth.atensailabhub.workers.dev
-  auth_endpoint: auth
-
-media_folder: public/assets/img
-public_folder: /assets/img

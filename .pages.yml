@@ -1,0 +1,228 @@
+media:
+  input: public/assets/img
+  output: /assets/img
+
+content:
+  - name: site
+    label: Site Settings
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        type: string
+        label: Brand Name
+      - name: tagline
+        type: string
+        label: Tagline
+      - name: phone
+        type: string
+        label: Phone
+      - name: email
+        type: string
+        label: Email
+      - name: facebook
+        type: string
+        label: Facebook URL
+
+  - name: hero
+    label: Hero Section
+    type: file
+    path: content/hero.json
+    format: json
+    fields:
+      - name: eyebrow
+        type: string
+        label: Eyebrow
+      - name: title
+        type: string
+        label: Title (array)
+        list: true
+      - name: subtitle
+        type: string
+        label: Subtitle
+      - name: lead
+        type: text
+        label: Lead Paragraph
+      - name: primaryCta
+        type: object
+        label: Primary CTA
+        fields:
+          - name: label
+            type: string
+          - name: href
+            type: string
+      - name: secondaryCta
+        type: object
+        label: Secondary CTA
+        fields:
+          - name: label
+            type: string
+          - name: href
+            type: string
+
+  - name: about
+    label: About Section
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: kicker
+        type: string
+        label: Kicker
+      - name: title
+        type: string
+        label: Title
+      - name: body
+        type: text
+        label: Body
+        list: true
+      - name: stats
+        type: object
+        label: Stats
+        list: true
+        fields:
+          - name: value
+            type: string
+            label: Value
+          - name: label
+            type: string
+            label: Label
+
+  - name: disciplines
+    label: Disciplines
+    type: file
+    path: content/disciplines.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        type: string
+        label: ID
+      - name: name
+        type: string
+        label: Name
+      - name: sub
+        type: string
+        label: Subtitle
+      - name: image
+        type: image
+        label: Image
+      - name: text
+        type: text
+        label: Description
+
+  - name: academy
+    label: Academy (Classes)
+    type: file
+    path: content/academy.json
+    format: json
+    fields:
+      - name: name
+        type: string
+        label: Name
+      - name: address
+        type: string
+        label: Address
+      - name: schedule
+        type: string
+        label: Schedule
+      - name: curriculum
+        type: string
+        label: Curriculum
+      - name: instructor
+        type: string
+        label: Instructor
+      - name: notes
+        type: text
+        label: Notes
+        list: true
+
+  - name: grandmaster
+    label: Grandmaster
+    type: file
+    path: content/grandmaster.json
+    format: json
+    fields:
+      - name: kicker
+        type: string
+        label: Kicker
+      - name: name
+        type: string
+        label: Name
+      - name: ranks
+        type: string
+        label: Ranks
+      - name: image
+        type: image
+        label: Image
+      - name: bio
+        type: text
+        label: Bio
+        list: true
+      - name: philosophy
+        type: text
+        label: Philosophy Quote
+
+  - name: seminars
+    label: Seminars
+    type: file
+    path: content/seminars.json
+    format: json
+    fields:
+      - name: intro
+        type: text
+        label: Intro Text
+      - name: highlights
+        type: object
+        label: Highlights
+        list: true
+        fields:
+          - name: title
+            type: string
+            label: Title
+          - name: where
+            type: string
+            label: Location
+          - name: blurb
+            type: text
+            label: Blurb
+          - name: image
+            type: image
+            label: Image
+      - name: cta
+        type: object
+        label: CTA
+        fields:
+          - name: label
+            type: string
+          - name: href
+            type: string
+
+  - name: principles
+    label: Principles
+    type: file
+    path: content/principles.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        type: string
+        label: Title
+      - name: text
+        type: text
+        label: Text
+
+  - name: faqs
+    label: FAQs
+    type: file
+    path: content/faqs.json
+    format: json
+    list: true
+    fields:
+      - name: q
+        type: string
+        label: Question
+      - name: a
+        type: text
+        label: Answer
