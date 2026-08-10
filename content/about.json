@@ -2,13 +2,25 @@
   "kicker": "About Saykan Combat",
   "title": "A complete Filipino Martial Art for life",
   "body": [
-    "Saykan Combat is a complete Filipino Martial Art system covering all ranges of fighting \u2014 kicking, boxing, trapping, locking, throws, ground pins, and defence against weapons. The art was developed by Grandmaster Modesto \u201cDing\u201d Llanera over a lifetime of study, and battle-tested in real situations on the streets of Manila.",
-    "The name Saykan literally means \u201ccombat dance of the noble men\u201d \u2014 reflecting the Grandmaster\u2019s belief that a martial art is more than fighting. It should sharpen the body, calm the mind, and build positive character. Saykan Combat is taught exactly as it was passed down: practical, natural, respectful \u2014 and kept alive through direct transmission from Grandmaster Llanera and his licensed instructors."
+    "Saykan Combat Systems is an evolving and expanding self-defence system rooted in the principles of Filipino Martial Arts, while adapting to the realities of modern combat and personal protection. It is not confined to tradition for tradition’s sake, but instead embraces the philosophy that a martial art must remain alive, functional, and relevant to the changing needs of society.",
+    "The name Saykan literally means “combat dance of the noble men” — reflecting the Grandmaster’s belief that a martial art is more than fighting. It should sharpen the body, calm the mind, and build positive character. Saykan Combat is taught exactly as it was passed down: practical, natural, respectful — and kept alive through direct transmission from Grandmaster Llanera and his licensed instructors."
   ],
   "stats": [
-    { "value": "7th", "label": "Dan Escrima / Arnis" },
-    { "value": "40+", "label": "Years Teaching" },
-    { "value": "18", "label": "Levels to Black Belt" },
-    { "value": "IRL", "label": "Headquarters Bray" }
+    {
+      "value": "7th",
+      "label": "Dan Escrima / Arnis"
+    },
+    {
+      "value": "40+",
+      "label": "Years Teaching"
+    },
+    {
+      "value": "18",
+      "label": "Levels to Black Belt"
+    },
+    {
+      "value": "IRL",
+      "label": "Headquarters Bray"
+    }
   ]
 }
